@@ -12,8 +12,8 @@ const Home = () => {
     <h2 className='font-semibold text-xl font-poppins text-center'>collage management system</h2>
     </div>
     <div className='flex justify-center mt-2'>
-      <Link to='/signup'><button className='bg-sky-500 text-white font-semibold p-2 rounded-md px-2 font-poppins mx-2'>signup</button></Link>
-      <Link to='/login'><button className='bg-sky-500 text-white font-semibold p-2 rounded-md px-2 font-poppins mx-2'>login</button></Link>
+      <Link to='/api/v1/signup'><button className='bg-sky-500 text-white font-semibold p-2 rounded-md px-2 font-poppins mx-2'>signup</button></Link>
+      <Link to='/api/v1/login'><button className='bg-sky-500 text-white font-semibold p-2 rounded-md px-2 font-poppins mx-2'>login</button></Link>
     </div>
     </div>
     </div>
